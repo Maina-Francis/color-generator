@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
+import SingleColor from "./SingleColor";
 
-const App = () => {
-  return <div>App Component</div>;
-};
+import Values from "values.js";
+
+function App() {
+  return <h2>color generator project</h2>;
+}
 
 export default App;
